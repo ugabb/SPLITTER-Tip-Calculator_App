@@ -41,7 +41,7 @@ section {
 }
 .bill p {
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: bold;
   color: hsl(186deg, 14%, 43%);
 }
@@ -68,6 +68,74 @@ section {
   font-weight: bold;
 }
 
-.discont .porcent-container {
+.discont {
+  width: 100vw;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.discont p {
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: hsl(186deg, 14%, 43%);
+  margin: 10px;
+}
+.discont .porcent-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+}
+.discont .porcent {
+  background-color: hsl(183deg, 100%, 15%);
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 5px;
+  width: 30vw;
+  padding: 5px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.discont .porcent:hover {
+  background-color: hsl(172deg, 67%, 45%);
+  color: hsl(183deg, 100%, 15%);
+}
+.discont .white {
+  background-color: hsl(180deg, 15%, 94%);
+  color: hsl(186deg, 14%, 43%);
+}
+
+.people {
+  width: 90%;
+  text-align: center;
+  margin: 20px;
+}
+.people p {
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: hsl(186deg, 14%, 43%);
+}
+.people input {
+  height: 30px;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(180deg, 15%, 94%);
+}
+.people ::-moz-placeholder {
+  color: hsl(184deg, 14%, 56%);
+  padding-left: 15px;
+  font-weight: bold;
+}
+.people :-ms-input-placeholder {
+  color: hsl(184deg, 14%, 56%);
+  padding-left: 15px;
+  font-weight: bold;
+}
+.people ::placeholder {
+  color: hsl(184deg, 14%, 56%);
+  padding-left: 15px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
